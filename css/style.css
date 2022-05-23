@@ -279,70 +279,6 @@ section {
   color: var(--primary);
 }
 
-.features .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(32rem, 1fr)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
-  gap: 1.5rem;
-  gap: 0;
-}
-
-.features .box-container .box {
-  background: #111;
-}
-
-.features .box-container .box.second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-  -ms-flex-flow: column-reverse;
-  flex-flow: column-reverse;
-}
-
-.features .box-container .box:hover .image img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.features .box-container .box .image {
-  height: 30rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-.features .box-container .box .image img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.features .box-container .box .content {
-  padding: 2rem;
-  text-align: center;
-}
-
-.features .box-container .box .content img {
-  height: 9rem;
-  margin-bottom: 1rem;
-  -webkit-filter: invert(1);
-  filter: invert(1);
-}
-
-.features .box-container .box .content h3 {
-  font-size: 2rem;
-  color: var(--primary);
-}
-
-.features .box-container .box .content p {
-  line-height: 2;
-  font-size: 1.5rem;
-  color: rgb(0, 0, 0);
-  padding: 1rem 0;
-}
 
 .pricing {
   display: -ms-grid;
@@ -460,6 +396,10 @@ section {
   transform: translateY(6.5rem);
 }
 
+.restaurants .box-container .box .content a h3:hover {
+  color: var(--primary);
+}
+
 .restaurants .box-container .box .content span {
   font-size: 1.5rem;
   color: rgb(215, 26, 98);
@@ -483,9 +423,6 @@ section {
   margin-right: 1.5rem;
 }
 
-.restaurants .box-container .box .content .share a:hover {
-  color: rgb(215, 26, 98);
-}
 
 /*=====[BANNER-1 SECTION]========================================================================================================================================================*/
 
