@@ -19,6 +19,8 @@ A web-based restaurant location system for popular fast food restaurants in Trin
 
 ## Screenshots
 
+![image](https://user-images.githubusercontent.com/55777067/169893499-9cb34816-35c4-4b58-be9f-24c31600f451.png)
+
 
 ## 🤝 Contributing
 
