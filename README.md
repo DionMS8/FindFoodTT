@@ -1,6 +1,6 @@
 # FindFoodTT 🔎🍕🍔🍟
 
-![image](https://user-images.githubusercontent.com/55777067/169886869-0804808a-8afc-4492-b54a-b03aeb2e4139.png)
+![image](https://user-images.githubusercontent.com/55777067/169887753-fbbb1c7d-612e-40ec-9f3b-8ca85f2a9a87.png)
 
 ## Table of contents
 * [General Information](#general-info)
