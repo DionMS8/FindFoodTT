@@ -35,4 +35,4 @@ If you have various suggestions, questions or want to discuss things, Have a loo
 
 ## 🙌 Show your support
 
-Be sure to leave a ⭐️ if you like the project and also be sure to contribute, if you're interested!
+Be sure to leave a ⭐️ if you like the project and also be sure to contribute if you're interested!
