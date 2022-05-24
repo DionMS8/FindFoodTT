@@ -462,6 +462,78 @@ section {
   line-height: 2;
 }
 
+/*=====[FOOD TYPES SECTION]========================================================================================================================================================*/
+
+.food-types {
+  margin-top: -20px;
+}
+
+.food-types .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(29rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  gap: 1.5rem;
+}
+
+.food-types .box-container .box {
+  height: 35rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.food-types .box-container .box:hover .content {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  margin-top: 30px;
+}
+
+.food-types .box-container .box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.food-types .box-container .box .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  padding: 2rem;
+  -webkit-transform: translateY(6.5rem);
+  transform: translateY(6.5rem);
+}
+
+.food-types .box-container .box .content a h3:hover {
+  color: var(--primary);
+}
+
+.food-types .box-container .box .content span {
+  font-size: 1.5rem;
+  color: rgb(215, 26, 98);
+}
+
+.food-types .box-container .box .content h3 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  padding-top: 0.5rem;
+}
+
+.food-types .box-container .box .content .share {
+  padding-top: 3rem;
+  margin-top: 1.5rem;
+  border-top: 0.1rem solid #aaa;
+}
+
+.food-types .box-container .box .content .share a {
+  font-size: 2rem;
+  color: #fff;
+  margin-right: 1.5rem;
+}
+
+
 /*=====[BANNER-2 SECTION]========================================================================================================================================================*/
 
 .banner-2 {
@@ -631,7 +703,7 @@ section {
   line-height: 4.5rem;
   font-size: 1.7rem;
   color: var(--primary);
-  background: rgb(245, 228, 0);
+  background: rgb(0, 0, 0);
   border-radius: 50%;
   margin-right: 0.5rem;
   text-align: center;
@@ -702,7 +774,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: rgb(246, 255, 0);
+    background: rgb(0, 0, 0);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
